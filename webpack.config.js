@@ -5,7 +5,7 @@ const HtmlPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: './main.js',
   output: {
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'ol36_build'),
     filename: 'main.js'
   },
   devtool: 'source-map',
